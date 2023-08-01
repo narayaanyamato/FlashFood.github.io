@@ -20,7 +20,7 @@ html,body{
    
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:460px){
 
 	
 	.navbar-brand img{
@@ -43,7 +43,10 @@ html,body{
    overflow: hidden;
 }
 
+.equal-column{width:50%;min-height: 200px}
+
 }
+
 
 
 .navbar .navbar-nav li a{
@@ -132,7 +135,7 @@ box-shadow: 11px 13px 5px -12px rgba(0,0,0,0.75);
 .company img{
 	width: 100%;
     display: inline-block;
-     height:100%;
+     min-height: 180px;
      margin-top: 10px;
     transform: scale(1.2);
 }
@@ -651,3 +654,22 @@ margin-bottom: 60px;
 #comps{
 	display: none;
 }
+
+.sec3_inner .img2{
+  display: none;
+}
+
+ @media screen and (max-width:640px){
+   .sec3_inner .img2{
+  display: block;
+}	
+.sec3_inner .img1{
+  display: none;
+}
+ }
+
+ #hide{
+ 	display: none;
+ }
+
+
